@@ -1,12 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link href="runaway.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Run Way</title>
+    <link rel="stylesheet" href="runaway.css">
 </head>
 <body>
-<div id="game"></div>
+<div id="ui">
+    <div id="info">Moves: <span id="moves">0</span></div>
+    <button id="reset">Reset</button>
+</div>
+<div id="game" aria-label="Run Way grid"></div>
 <script src="runaway.js"></script>
 </body>
 </html>
